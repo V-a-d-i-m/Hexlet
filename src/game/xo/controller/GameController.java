@@ -1,5 +1,6 @@
 package game.xo.controller;
 
+import game.xo.model.Figure;
 import game.xo.model.Player;
 
 public class GameController {
@@ -8,12 +9,21 @@ public class GameController {
 
     private static final int MAX_COORDINATE = 2;
 
+    private static final int PLAYERS_COUNT = 2;
+
     private final String gameName;
 
-    private Player[] players;
+    private Player[] players = new Player[]{new Player("Max", new Figure("0")),
+                                            new Player("Leo", new Figure("X"))};
 
-    public GameController(String gameName){
-        this.gameName = gameName;
+
+
+    public GameController(final String gameName){
+        if (gameName == null || gameName.isEmpty()){
+            this.gameName = "X0";
+        } else {
+            this.gameName = gameName;
+        }
     }
 
     public String getGameName() {
@@ -25,6 +35,9 @@ public class GameController {
     }
 
     public boolean move(final int x, final int y){
+
+        assert x >= 0;
+        assert y >= 0;
 
         if (! checkCoordinate(x) || !checkCoordinate(y) ) {
             return false;

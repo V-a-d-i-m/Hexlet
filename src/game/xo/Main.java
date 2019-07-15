@@ -8,12 +8,24 @@ import game.xo.view.ConsoleView;
 
 public class Main {
 
+
     public static void main(String[] args) {
 
-        final GameController game = new GameController();
-        final AdvConsoleView advConsoleView = new AdvConsoleView(game);
-        final ConsoleView consoleView = new ConsoleView(game);
+//        testBoard();
+//        testFugure();
+//        testGameController();
+//        testPlayer();
+//        testConsoleView();
+
+        Board board = new Board();
+        board.initArray();
+        board.showBoard();
+
+        final GameController gameController = new GameController("XO");
+        final AdvConsoleView advConsoleView = new AdvConsoleView(gameController);
+        final ConsoleView consoleView = new ConsoleView(gameController);
         startGame(advConsoleView);
+        startGame(consoleView);
 
     }
 
