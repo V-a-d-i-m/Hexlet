@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="deb5baf3-d22d-425f-9fa3-f41e170e160f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/io/hexlet/xo/controllers/CurrentMoveController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/hexlet/xo/controllers/CurrentMoveController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/hexlet/xo/model/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/hexlet/xo/model/Point.java" afterDir="false" />
-    </list>
+    <list default="true" id="deb5baf3-d22d-425f-9fa3-f41e170e160f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/io/hexlet/xo/controllers/CurrentMoveController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+            <state relative-caret-position="476">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -532,8 +529,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/io/hexlet/xo/controllers/CurrentMoveController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        <state relative-caret-position="476">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
